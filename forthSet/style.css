@@ -1,0 +1,42 @@
+:root {
+    --primaryClr: #212121;
+    --primaryForegroundClr: rgb(199, 199, 199);
+    --borderClr: rgb(199, 199, 199);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #212121;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--borderClr);
+    padding: 15px 30px;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: var(--primaryClr);
+    color: var(--primaryForegroundClr);
+}
+
+.left {}
+
+.right {
+    list-style: none;
+    display: flex;
+    font-size: large;
+    column-gap: 25px;
+}
+
+.right li {
+    /* border:1px solid black */
+    cursor: pointer;
+}
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>faultyCalculator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        input,
+        select,
+        option {
+            height: 50px;
+            font-size: large;
+        }
+
+        #ans {
+            border: 2px solid red;
+            height: 50px;
+            width: 100px;
+        }
+
+        button {
+            padding: 10px;
+            font-weight: bold;
+            font-size: larger;
+        }
+    </style>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <a href="/index.html">Home</a>
+        <input type="number" id="a">
+        <select name="op" id="op">
+            <option disabled selected>select </option>
+            <option value="-">+</option>
+            <option value="+">*</option>
+            <option value="/">-</option>
+            <option value="**">/</option>
+        </select>
+        <input type="number" id="b">
+        <button id="btn">Calculate</button>
+        <div id="ans">d</div>
+    </main>
+</body>
+
+</html>

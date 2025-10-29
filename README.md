@@ -1,1 +1,1 @@
-# set to set your hand back on html js css 
+# sets to set your hand back on pure ( html js css )
